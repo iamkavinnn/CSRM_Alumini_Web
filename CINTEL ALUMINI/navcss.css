@@ -1,0 +1,25 @@
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    padding: 8px 25px;
+    border-radius:5px;
+    margin:0 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(255,193,0,255);
+}
+
+
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
+.logo{
+    height: 65px;
+    width: 80px;
+    position:sticky;
+}
+
+

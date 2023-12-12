@@ -1,0 +1,136 @@
+
+.heading{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: -220px;
+    margin-left:-15px;
+    font-size: 52px;
+}
+
+header{
+    margin-top:60px;
+    display:flex;
+    height: 300px;
+    background-size:contain;
+    background-image: url("banner.jpg");
+}
+/*media Query*/
+@media only screen and (max-width:600px){
+    header{
+        background-position: 20% 33%;
+    }
+}
+/*Common styling ends here*/
+
+/*Contact actual elements*/
+
+.contact-in
+{
+	width: 80%;
+	height: auto;
+	margin-left: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map
+{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+}
+.contact-map iframe
+{
+	width: 100%;
+	height: 100%;
+    border-radius: 2px;
+}
+.contact-form
+{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+	padding: 30px;
+	text-align: center;
+}
+.contact-form h1
+{
+	margin-bottom: 10px;
+}
+
+.contact-form-txt
+{
+	width: 100%;
+	height: 40px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 50px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.contact-form-txt::placeholder
+{
+	color: #aaa;
+}
+.contact-form-textarea
+{
+	width: 100%;
+	height: 130px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 10px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-form-textarea::placeholder
+{
+	color: #aaa;
+}
+
+.no{
+	color: blue;
+}
+
+.contact-form-btn
+{
+	width: 100%;
+	border:none;
+	outline: none;
+	border-radius: 50px;
+	background: rgba(255,193,0,255);
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.contact-form-btn:hover{
+    opacity: 0.9;
+}
+
+
+
+@media(min-width: 900px){
+	.container3{
+	 max-width: 90%;
+	 margin-left: 9rem;
+   }
+  }
+
+  @media(min-width: 900px){
+	.contact-in{
+	 max-width: 90%;
+	 margin-left: 2.7rem;
+   }
+  }
