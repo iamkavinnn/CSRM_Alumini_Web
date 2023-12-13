@@ -195,6 +195,9 @@ form .dropbtn span.details2{
  .container1{
   max-width: 100%;
 }
+.drp{
+  width : 90vw;
+}
 
 form .user-details .input-box{
     margin-bottom: 15px;
@@ -220,7 +223,7 @@ form .user-details .input-box{
 @media(min-width: 900px){
   .container1{
    max-width: 50%;
-   margin-left: 29.5rem;
+   align-self: cneter;
  }
 }
 
